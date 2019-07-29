@@ -5,10 +5,74 @@ body{
 }
 
 
+* {
+    box-sizing: border-box;
+  }
 
 #container{
-    background-color: red;
+    background-color:#b3cccc;
     width: 80%;
     margin: auto;
     margin-top: 20px;
+}
+
+#name{
+    float: left;
+}
+
+#aboutMe{
+    float: left;
+
+}
+
+#portfolio{
+    float: left;
+}
+#contact{
+    float: left;
+}
+
+#menu{
+    height: 50px;
+    background: linear-gradient(135deg, #e6ffff 20%, #b3ffff 60%, #66ffff 77%, #009999 );
+}
+
+#wrapper{
+    background-color:#b3cccc;
+}
+
+#mainBio{
+    border-radius: 50px 0px 0px 50px;    
+    background: linear-gradient(135deg, #e6ffff 20%, #b3ffff 60%, #66ffff 77%, #009999 );
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    height: 100%;
+    
+}
+#abtMe{
+    border-bottom: 2px solid red;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+img{
+    max-width: 100%;
+    height: 150px;
+    float: left;
+    padding: 10px 10px 5px 0px;
+
+}
+
+#footer{
+    background-color:black;
+    width: 80%;
+    margin: auto;
+    border-top: 2px solid red;
+    color:white;
+    text-align: center;
+}
+#bioText{
+    padding: 20px;
 }
