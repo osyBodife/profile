@@ -1,0 +1,14 @@
+body{
+
+    margin-top: 0px;
+    background-color: #005266;
+}
+
+
+
+#container{
+    background-color: red;
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+}
