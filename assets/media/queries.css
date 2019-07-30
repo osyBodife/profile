@@ -17,7 +17,13 @@
     #contact{
       display: none;
     }
-    
+    #bioText{
+      font-size: 9px;
+    }
+    #img1{
+      width: 80px;
+      height: 80px;
+    }
     
   }
 
@@ -57,9 +63,6 @@
     .col-s-10 {width: 83.33%;}
     .col-s-11 {width: 91.66%;}
     .col-s-12 {width: 100%;}
-    #names{
-      display: block;
-    }
     
     
   }
