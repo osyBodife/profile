@@ -19,28 +19,57 @@ body{
 #name{
     float: left;
     padding: 20px;
+    margin-left: 90px; 
     
 }
 
 #name:hover{
     background-color: #009999;
+    background: linear-gradient(145deg, red , yellow );  
+    font-family: "Times New Roman", Times, serif;
 
 }
 #aboutMe{
     float: left;
+    padding: 20px;  
+
+}
+
+#aboutMe:hover{
+    background-color: #009999;
+    background: linear-gradient(145deg, red , yellow );  
 
 }
 
 #portfolio{
     float: left;
+    padding: 20px;
+   
+}
+
+
+#portfolio:hover{
+    background-color: #009999;
+    background: linear-gradient(145deg, red , yellow );  
+
 }
 #contact{
     float: left;
+    padding: 20px;
+   
+}
+
+#contact:hover{
+    background-color: #009999;
+    background: linear-gradient(145deg, red , yellow );  
+
 }
 
 #menu{
-    height: 50px;
+    height: 60px;
     background: linear-gradient(135deg, #e6ffff 20%, #b3ffff 60%, #66ffff 77%, #009999 );
+    
+     
 }
 
 #wrapper{
@@ -82,4 +111,16 @@ img{
 }
 #bioText{
     padding: 20px;
+    text-align: justify;
+  text-justify: inter-word;
 }
+
+div #menu a{
+    text-decoration: none;
+    
+    
+}
+
+p.a {
+    font-family: "Times New Roman", Times, serif;
+  }
