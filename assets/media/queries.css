@@ -2,7 +2,7 @@
 @media only screen and (max-width: 768px) {
     /* For mobile phones: */
     [class*="col-"] {
-      width: 100%;
+      width: 80%;
     }
     #name{
       display: none;
@@ -20,11 +20,18 @@
     #bioText{
       font-size: 9px;
     }
-    #img1{
+    #img1, #img2,#img3, #img4, #img5, #img6, #img7, #img8{
       width: 80px;
       height: 80px;
     }
-    
+    #img3{
+      margin-left: 20px;
+
+    }
+    #img7{
+      margin-left: 20px;
+
+    }
   }
 
 
