@@ -123,3 +123,16 @@ div #menu a{
     
     
 }
+#main-form{
+    margin: 30px  100px 0px 100px;     
+    background-color:white;  
+   
+
+}
+#submit{
+    
+    margin: auto;
+    margin-bottom: 15px;
+    margin-top: 15px;
+   
+}
